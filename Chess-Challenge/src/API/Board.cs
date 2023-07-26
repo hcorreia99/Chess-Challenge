@@ -292,6 +292,5 @@ namespace ChessChallenge.API
             boardCore.LoadPosition(fen);
             return new Board(boardCore);
         }
-
     }
 }
